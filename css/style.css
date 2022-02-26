@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body{
+    background-color: rgb(47, 47, 48);
+}
+
+header h1{
+    text-align: center;
+    color: azure;
+    margin: 25px;
+    font-style: italic;
+}
+.container{
+    background-color: white;
+    padding: 15px 15px 40px;
+    border-radius:  10px 30px 15px;
+}
+
+.foto{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.pagina{
+    margin: auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap:30px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.txt{
+    margin-top: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(247, 239, 239);
+    font-style: italic;
+}
